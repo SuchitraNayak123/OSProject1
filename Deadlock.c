@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
+#include<unistd.h>
+#include<sys/types.h>
 int main()
 {
 	printf("\t\t\t\t\t*****************************************************\n");
@@ -81,10 +82,10 @@ kill=1;
 }
 }
 
-if(kill==1){printf("\n\t\tDeadlock occured in System");}
+if(kill==1){printf("\n\t\tDeadlock occured in System\n\n");}
 
 else
 {
-	printf("\n\t\tSystem are in Safe State");
+	printf("\n\t\tSystem are in Safe State\n\n");
 }
 }
